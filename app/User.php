@@ -96,7 +96,6 @@ class User extends Authenticatable
         Storage::delete('uploads/'.$this->avatar);
     }
 
-
     public function getAvatar()
     {
         if($this->avatar == null){
